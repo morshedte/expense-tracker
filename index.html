@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker CLI (Browser)</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f7f7f7; color: #222; margin: 0; padding: 2em; }
+    .container { max-width: 500px; margin: 40px auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #0001; padding: 2em; text-align: center; }
+    button { font-size: 1.1em; padding: 0.7em 2em; border-radius: 5px; border: none; background: #0078d7; color: #fff; cursor: pointer; margin-top: 1em; }
+    button:hover { background: #005fa3; }
+    .note { color: #666; font-size: 0.95em; margin-top: 1.5em; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Expense Tracker CLI</h1>
+    <p>This is a console-based Expense Tracker.<br>Click below to start in your browser using <b>prompt()</b> dialogs.</p>
+    <button onclick="window.startExpenseTracker()">Start Expense Tracker</button>
+    <div class="note">Check your browser's <b>Console</b> (F12) for output and instructions.</div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
